@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuppam Engineering College Website</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Certificate & Programs for 2023</h1>
+       <p></p>
+    </section>
+
+<!-- blog page content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="g1.jpg">
+            <h2>Our Certificate & Programs for 2023</h2>
+            <p>Diploma Courses: Kuppam Polytechnic offers a Three year Diploma programmes in Three core disciplines. The Students are admitted on the basis of merit through Polycet counseling.
+
+                Departments at Polytechnic are:
+                
+                DECE (Electronics & Communication Engineering),
+                DEEE (Electrical & Electronics Engineering),
+                DME (Mechanical Engineering).</p>
+                <br>
+                <p>UG Courses: KEC offers a four-year Bachelor’s in Technology (B Tech) programme in Six core disciplines. The Students are admitted on the basis of merit through EAMCET counselling.
+
+                    Departments at KEC are:
+                    
+                    Electronics & Communication Engineering,
+                    Electrical & Electronics Engineering,
+                    Computer Science Engineering,
+                    Computer Science and Engineering (Artificial Intelligence and Machine Learning) New Course – 2022-23,
+                    Mechanical Engineering,
+                    Civil Engineering.</p>
+                    <br>
+                    <p>PG Courses: KEC offers MBA and M.Tech. programmes in specialized core areas of engineering.
+
+                        Master of Business Administration (MBA),
+                        M.Tech ECE (Embedded Systems),
+                        M.Tech EEE (Power Electronics),
+                        M.Tech CSE (Computer Science Engineering),
+                        M.Tech ME (Machine Design),
+                        M.Tech ECE (VLSI).</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>25</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Kuppam Educational Society in addition to Kuppam Engineering College also established Kuppam Public School, <br>Kuppam Junior College, Kuppam Polytechnic, Kuppam Degree College, Kuppam Teacher Training Institute <br> and Kuppam College of Nursing for educational development of the society in and around Kuppam.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart"></i> by K Nithyasree</p>
+</section>
+
+    <!-----JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
